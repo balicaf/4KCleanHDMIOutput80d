@@ -12,3 +12,5 @@ gst-launch-1.0 videotestsrc ! video/x-raw,width=1280,height=720 ! nvvidconv ! 'v
 
 and uploading to youtube with: 
 https://gist.github.com/joeladdison/6e9fe495eab7856a44d9f405ed493af8
+
+for later, deep learning is a really attractive way to do it, but in order to make it work out of the box, the idea in a conventional way is to check exact color, more complicated would be to do a cross correlation with boxes of 3 colors: green, black and red. Inpainting can be done with classic bilinear method.
